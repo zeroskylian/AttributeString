@@ -99,7 +99,7 @@ extension AttributeString {
         static func strikethrough(_ style: CGFloat,_ color:UIColor) -> Style {
             return Style(attributes: [.strikethroughStyle: style,.strikethroughColor:color])
         }
- 
+        
         /// 底线
         static func underline(_ style: NSUnderlineStyle,_ color: UIColor) -> Style {
             return Style(attributes: [.underlineColor: color,.underlineStyle: style.rawValue])
